@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pathfinding-visualizer/static/css/main.23abec31.css",
+    "main.js": "/pathfinding-visualizer/static/js/main.09904af9.js",
+    "static/media/home.jpg": "/pathfinding-visualizer/static/media/home.7644ae0feca1dbbf9a53.jpg",
+    "static/media/Poppins-Thin.ttf": "/pathfinding-visualizer/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-ExtraLight.ttf": "/pathfinding-visualizer/static/media/Poppins-ExtraLight.94b768c07879dde09ab4.ttf",
+    "static/media/Poppins-Light.ttf": "/pathfinding-visualizer/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/pathfinding-visualizer/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/pathfinding-visualizer/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/pathfinding-visualizer/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/pathfinding-visualizer/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/pathfinding-visualizer/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Poppins-Black.ttf": "/pathfinding-visualizer/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
+    "index.html": "/pathfinding-visualizer/index.html",
+    "main.23abec31.css.map": "/pathfinding-visualizer/static/css/main.23abec31.css.map",
+    "main.09904af9.js.map": "/pathfinding-visualizer/static/js/main.09904af9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23abec31.css",
+    "static/js/main.09904af9.js"
+  ]
+}
