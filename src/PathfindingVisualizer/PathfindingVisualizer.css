@@ -1,0 +1,29 @@
+.banner-image {
+    background-image: url("../assets/background/home.jpg");
+    background-size: fill;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.grid {
+    outline: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+}
+
+.btn {
+    color: white;
+    margin-top: 17px;
+    margin-right: 15px;
+    border-color: white;
+    background: transparent !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    font: normal normal normal 15px/22px Poppins-Bold;
+}
+
+.btn:hover {
+    color: white;
+    transition: all 0.2s ease-in;
+    border-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.35);
+    /* background-color: rgba(255, 255, 255, 0.4); */
+}

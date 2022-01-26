@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Poppins-Black";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-Black.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-Bold.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-ExtraBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-ExtraBold.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-ExtraLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-ExtraLight.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-Light.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-Medium.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-Regular.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-SemiBold.ttf')
+}
+
+@font-face {
+  font-family: "Poppins-Thin";
+  font-style: normal;
+  font-weight: normal;
+  src: url('./assets/fonts/Poppins-Thin.ttf')
+}
