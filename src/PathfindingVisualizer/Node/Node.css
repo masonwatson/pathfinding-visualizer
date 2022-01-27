@@ -1,9 +1,16 @@
 .node {
   width: 22px;
   height: 22px;
+  /* width: 10px;
+  height: 10px; */
   display: inline-block;
-  margin-bottom: -3.7px;
-  margin-right: 1.0px;
+
+  /* outline: 1px solid white; */
+  /* margin-bottom: -3.7px;
+  margin-right: 1.0px; */
+  margin-top: 0px !important;
+  margin-bottom: 0px;
+  /* margin-right: 1.0px; */
 }
 
 .node-finish {

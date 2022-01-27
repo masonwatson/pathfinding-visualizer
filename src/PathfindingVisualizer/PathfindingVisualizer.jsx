@@ -78,12 +78,12 @@ export default class PathfindingVisualizer extends Component {
     const { grid, mouseIsPressed } = this.state;
 
     return (
-      <div className="banner-image vh-100 d-flex justify-content-center align-items-center">
-        <div className="content text-center">
-          <div className="grid">
+      <div className="banner-image vh-100 d-flex justify-content-center align-items-center" draggable="false">
+        <div className="content text-center" draggable="false">
+          <div className="grid" draggable="false">
             {grid.map((row, rowIndex) => {
               return (
-                <div key={rowIndex}>
+                <div key={rowIndex} className="row-container">
                   {row.map((node, nodeIndex) => {
                     const { row, col, isStart, isFinish, isWall } = node;
                     return (
@@ -112,14 +112,14 @@ export default class PathfindingVisualizer extends Component {
           <button
             onClick={() => this.visualizeDijkstra()}
             type="button"
-            className="btn btn-visualize"
+            className="btn btn-visualize inline-block-content"
           >
             Visualize Dijkstra
           </button>
           <button
             onClick={() => this.clearBoard()}
             type="button"
-            className="btn btn-clear"
+            className="btn btn-clear inline-block-content"
           >
             Clear Board
           </button>
@@ -165,6 +165,4 @@ const getNewGridWithWallToggled = (grid, row, col) => {
   return newGrid;
 };
 
-const clearBoard = () => {
-
-};
+const clearBoard = () => {};
