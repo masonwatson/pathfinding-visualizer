@@ -8,6 +8,7 @@
 .grid {
     outline: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+    background-color: rgba(255, 255, 255, 0.025);
 }
 
 .btn {

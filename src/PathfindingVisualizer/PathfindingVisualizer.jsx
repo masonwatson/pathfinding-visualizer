@@ -51,7 +51,7 @@ export default class PathfindingVisualizer extends Component {
         const node = visitedNodesInOrder[i];
         document.getElementById(`node-${node.row}-${node.col}`).className =
           "node node-visited";
-      }, 10 * i);
+      }, 10 * i); // 10 * i
     }
   }
 
@@ -61,7 +61,7 @@ export default class PathfindingVisualizer extends Component {
         const node = nodesInShortestPathOrder[i];
         document.getElementById(`node-${node.row}-${node.col}`).className =
           "node node-shortest-path";
-      }, 50 * i);
+      }, 50 * i); // 50 * i
     }
   }
 
