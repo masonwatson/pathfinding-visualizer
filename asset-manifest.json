@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pathfinding-visualizer/static/css/main.23abec31.css",
+    "main.css": "/pathfinding-visualizer/static/css/main.ba6cd6b1.css",
     "main.js": "/pathfinding-visualizer/static/js/main.09904af9.js",
     "static/media/home.jpg": "/pathfinding-visualizer/static/media/home.7644ae0feca1dbbf9a53.jpg",
     "static/media/Poppins-Thin.ttf": "/pathfinding-visualizer/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
@@ -13,11 +13,11 @@
     "static/media/Poppins-ExtraBold.ttf": "/pathfinding-visualizer/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/Poppins-Black.ttf": "/pathfinding-visualizer/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
     "index.html": "/pathfinding-visualizer/index.html",
-    "main.23abec31.css.map": "/pathfinding-visualizer/static/css/main.23abec31.css.map",
+    "main.ba6cd6b1.css.map": "/pathfinding-visualizer/static/css/main.ba6cd6b1.css.map",
     "main.09904af9.js.map": "/pathfinding-visualizer/static/js/main.09904af9.js.map"
   },
   "entrypoints": [
-    "static/css/main.23abec31.css",
+    "static/css/main.ba6cd6b1.css",
     "static/js/main.09904af9.js"
   ]
 }
