@@ -1,33 +1,28 @@
 .node {
   width: 22px;
   height: 22px;
-  /* width: 10px;
-  height: 10px; */
   display: inline-block;
-
-  /* outline: 1px solid white; */
-  /* margin-bottom: -3.7px;
-  margin-right: 1.0px; */
   margin-top: 0px !important;
   margin-bottom: 0px;
-  /* margin-right: 1.0px; */
 }
 
 .node-finish {
   background-color: white;
+  border-radius: 35% !important;
   outline: 1px solid rgb(255, 255, 255);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
 }
 
 .node-start {
   background-color: white;
+  border-radius: 35% !important;
   outline: 1px solid rgb(255, 255, 255);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
 }
 
 .node-visited {
   animation-name: visitedAnimation;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
   animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
@@ -40,37 +35,27 @@
   0% {
     transform: scale(0.3);
     border-radius: 100%;
-    /* background-color: rgba(24, 68, 18, 0.959);
-    box-shadow: 0 0 15px rgba(24, 68, 18, 0.959); */
     background-color: rgba(235, 162, 52, 0.959);
     box-shadow: 0 0 15px rgba(235, 162, 52, 0.959);
   }
 
   50% {
-    /* background-color: rgba(57, 217, 17, 0.75);
-    box-shadow: 0 0 15px rgba(57, 217, 17, 0.75); */
     background-color: rgba(235, 192, 52, 0.959);
     box-shadow: 0 0 15px rgba(235, 192, 52, 0.959);
   }
 
   75% {
     transform: scale(1.2);
-    /* background-color: rgba(0, 217, 159, 0.75);
-    box-shadow: 0 0 15px rgba(0, 217, 159, 0.75); */
     background-color: rgba(255, 202, 28, 0.959);
     box-shadow: 0 0 15px rgba(255, 202, 28, 0.959);
   }
 
   100% {
     transform: scale(1);
-    background-color: transparent;
   }
 }
 
 .node-wall {
-  /* background-color: rgba(37, 95, 255, 0.9);
-  box-shadow: 0 0 20px rgba(37, 95, 255, 0.9);
-  outline: 1px solid rgba(37, 95, 255, 0.9); */
   background-color: rgba(250, 33, 33, 0.9);
   box-shadow: 0 0 20px rgba(250, 33, 33, 0.9);
   outline: 1px solid rgba(250, 33, 33, 0.9);
@@ -82,31 +67,32 @@
   animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
   animation-fill-mode: forwards;
   animation-play-state: running;
-  /* box-shadow: 0 0 25px rgba(34, 136, 9, 0.75);
-  outline: 1px solid rgb(34, 136, 9, 0.75); */
+  border-radius: 100%;
   outline: 1px solid rgb(255, 255, 255);
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
 }
 
 @keyframes shortestPath {
   0% {
-    transform: scale(0.6);
-    /* background-color: rgba(0, 217, 159, 0.75); */
+    transform: scale(0.7);
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+
+  25% {
+    transform: scale(1.0);
     background-color: rgba(255, 255, 255, 0.4);
   }
 
   50% {
     transform: scale(1.2);
-    /* background-color: rgba(57, 217, 17, 0.75); */
     background-color: rgba(255, 255, 255, 0.7);
   }
 
   100% {
     transform: scale(1);
-    /* background-color: rgba(34, 136, 9, 0.75); */
     background-color: rgba(255, 255, 255, 0.9);
   }
 }
