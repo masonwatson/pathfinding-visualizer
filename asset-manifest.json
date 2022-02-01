@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pathfinding-visualizer/static/css/main.c0634d7d.css",
-    "main.js": "/pathfinding-visualizer/static/js/main.e6f879ba.js",
+    "main.css": "/pathfinding-visualizer/static/css/main.93f0fcef.css",
+    "main.js": "/pathfinding-visualizer/static/js/main.7da21209.js",
     "static/media/home.jpg": "/pathfinding-visualizer/static/media/home.7644ae0feca1dbbf9a53.jpg",
     "static/media/Poppins-Thin.ttf": "/pathfinding-visualizer/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-ExtraLight.ttf": "/pathfinding-visualizer/static/media/Poppins-ExtraLight.94b768c07879dde09ab4.ttf",
@@ -13,11 +13,11 @@
     "static/media/Poppins-ExtraBold.ttf": "/pathfinding-visualizer/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
     "static/media/Poppins-Black.ttf": "/pathfinding-visualizer/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
     "index.html": "/pathfinding-visualizer/index.html",
-    "main.c0634d7d.css.map": "/pathfinding-visualizer/static/css/main.c0634d7d.css.map",
-    "main.e6f879ba.js.map": "/pathfinding-visualizer/static/js/main.e6f879ba.js.map"
+    "main.93f0fcef.css.map": "/pathfinding-visualizer/static/css/main.93f0fcef.css.map",
+    "main.7da21209.js.map": "/pathfinding-visualizer/static/js/main.7da21209.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0634d7d.css",
-    "static/js/main.e6f879ba.js"
+    "static/css/main.93f0fcef.css",
+    "static/js/main.7da21209.js"
   ]
 }
