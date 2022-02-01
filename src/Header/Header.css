@@ -17,6 +17,13 @@ nav {
 }
 
 .navbar-brand {
-    /* color: black !important; */
     font: normal normal normal 20px/1.4em Poppins-Semibold !important;
+}
+
+.nav-item {
+    font: normal normal normal 16px/1.4em Poppins-Regular !important;
+}
+
+.link {
+    text-decoration: none;
 }
