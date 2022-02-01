@@ -10,6 +10,10 @@ nav {
 
 .navbar {
     background-color: transparent !important;
+    /* background-image: url('../assets/background/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; */
 }
 
 .navbar-brand {

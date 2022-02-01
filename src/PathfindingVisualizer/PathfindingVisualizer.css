@@ -2,6 +2,7 @@
     background-image: url("../assets/background/home.jpg");
     background-size: fill;
     background-attachment: fixed;
+    background-repeat: repeat;
     min-height: 100%;
 }
 

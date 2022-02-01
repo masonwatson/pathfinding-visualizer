@@ -1,0 +1,42 @@
+.about-section-bg {
+    background-color: rgba(0, 0, 0, 0.9989);
+    background-size: fill;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100%;
+}
+
+.about-container {
+    scale: 75%;
+}
+
+.about-title {
+    font: normal normal normal 80px/95px Poppins-Bold;
+    text-shadow: 0 0 3.5px rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.about-subtitle {
+    font: normal normal normal 50px/55px Poppins-Bold;
+    text-shadow: 0 0 3.5px rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.about-text {
+    font: normal normal normal 32px/42px Poppins-SemiBold;
+    text-shadow: 0 0 3.5px rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.about-project {
+    transform: translateY(150px);
+}
+
+.about-use {
+    transform: translateY(-20px);
+}
+
+/* .red-text {
+    color: rgba(250, 33, 33, 0.9);
+    text-shadow: 0 0 3.5px rgba(250, 33, 33, 0.5);
+} */

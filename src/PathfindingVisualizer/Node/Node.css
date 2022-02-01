@@ -31,7 +31,7 @@
   animation-play-state: running;
 }
 
-@keyframes visitedAnimation {
+/* @keyframes visitedAnimation {
   0% {
     transform: scale(0.3);
     border-radius: 80%;
@@ -58,6 +58,35 @@
     background-color: rgba(255, 202, 28, 0.4);
     box-shadow: 0 0 15px rgba(255, 202, 28, 0.4);
   }
+} */
+
+@keyframes visitedAnimation {
+  0% {
+    transform: scale(0.3);
+    border-radius: 80%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  }
+
+  50% {
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.959);
+  }
+
+  75% {
+    transform: scale(1.2);
+    border-radius: 25%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.95);
+  }
+
+  85% {
+    transform: scale(1);
+    border-radius: 17%;
+    background-color: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  }
 }
 
 .node-wall {
@@ -69,7 +98,7 @@
 
 .node-shortest-path {
   animation-name: shortestPath;
-  animation-duration: 1.5s;
+  animation-duration: 1.85s;
   animation-timing-function: ease-out;
   animation-delay: 0;
   animation-direction: alternate;
@@ -84,21 +113,26 @@
 @keyframes shortestPath {
   0% {
     transform: scale(0.7);
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.5);
   }
 
   25% {
-    transform: scale(1.0);
-    background-color: rgba(255, 255, 255, 0.4);
+    transform: scale(0.90);
+    background-color: rgba(255, 255, 255, 0.7);
   }
 
   50% {
-    transform: scale(1.2);
+    transform: scale(1);
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+
+  75% {
+    transform: scale(0.90);
     background-color: rgba(255, 255, 255, 0.7);
   }
 
   100% {
-    transform: scale(1);
-    background-color: rgba(255, 255, 255, 0.9);
+    transform: scale(0.7);
+    background-color: rgba(255, 255, 255, 0.5);
   }
 }
