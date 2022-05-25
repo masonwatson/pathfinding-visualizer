@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pathfinding-visualizer/static/css/main.6dfd90da.css",
-    "main.js": "/pathfinding-visualizer/static/js/main.f484a322.js",
+    "main.js": "/pathfinding-visualizer/static/js/main.7c5bf327.js",
     "static/media/home.jpg": "/pathfinding-visualizer/static/media/home.a6e0de84550a85b27d85.jpg",
     "static/media/Poppins-Thin.ttf": "/pathfinding-visualizer/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
     "static/media/Poppins-ExtraLight.ttf": "/pathfinding-visualizer/static/media/Poppins-ExtraLight.94b768c07879dde09ab4.ttf",
@@ -14,10 +14,10 @@
     "static/media/Poppins-Black.ttf": "/pathfinding-visualizer/static/media/Poppins-Black.eacee5bb9c7fee5939ae.ttf",
     "index.html": "/pathfinding-visualizer/index.html",
     "main.6dfd90da.css.map": "/pathfinding-visualizer/static/css/main.6dfd90da.css.map",
-    "main.f484a322.js.map": "/pathfinding-visualizer/static/js/main.f484a322.js.map"
+    "main.7c5bf327.js.map": "/pathfinding-visualizer/static/js/main.7c5bf327.js.map"
   },
   "entrypoints": [
     "static/css/main.6dfd90da.css",
-    "static/js/main.f484a322.js"
+    "static/js/main.7c5bf327.js"
   ]
 }
