@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Node from "./Node/Node";
 import { dijkstra, getNodesInShortestPathOrder } from "../algorithms/dijkstra";
-// import { resetGrid } from "../algorithms/resetGrid";
 import "./PathfindingVisualizer.css";
 
 const NUM_ROWS = 27;
@@ -10,6 +9,8 @@ const START_NODE_ROW = 13;
 const START_NODE_COL = 9;
 const FINISH_NODE_ROW = 13;
 const FINISH_NODE_COL = 60;
+
+
 
 export default class PathfindingVisualizer extends Component {
   constructor() {
@@ -45,7 +46,7 @@ export default class PathfindingVisualizer extends Component {
       if (i === visitedNodesInOrder.length) {
         setTimeout(() => {
           this.animateShortestPath(nodesInShortestPathOrder);
-        }, 10 * i);
+        }, 4 * i);
         return;
       }
       setTimeout(() => {
@@ -60,7 +61,7 @@ export default class PathfindingVisualizer extends Component {
           document.getElementById(`node-${node.row}-${node.col}`).className =
           "node node-visited";
         }
-      }, 10 * i);
+      }, 4 * i);
     }
   }
 

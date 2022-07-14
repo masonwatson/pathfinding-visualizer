@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './Header/Header';
+import Header from './components/Header/Header';
+import About from './components/About/About';
 import PathfindingVisualizer from './PathfindingVisualizer/PathfindingVisualizer';
-import About from './About/About';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
       <PathfindingVisualizer/>
-      <About/>
+      {/* <About/> */}
     </div>
   );
 }
