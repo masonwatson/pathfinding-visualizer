@@ -1,6 +1,8 @@
 .node {
   width: 22px;
   height: 22px;
+  /* width: 5px; */
+  /* height: 5px; */
   display: inline-block;
   margin-top: 0px !important;
   margin-bottom: 0px;
@@ -30,35 +32,6 @@
   animation-fill-mode: forwards;
   animation-play-state: running;
 }
-
-/* @keyframes visitedAnimation {
-  0% {
-    transform: scale(0.3);
-    border-radius: 80%;
-    background-color: rgba(235, 162, 52, 0.959);
-    box-shadow: 0 0 15px rgba(235, 162, 52, 0.959);
-  }
-
-  50% {
-    border-radius: 50%;
-    background-color: rgba(235, 192, 52, 0.959);
-    box-shadow: 0 0 15px rgba(235, 192, 52, 0.959);
-  }
-
-  75% {
-    transform: scale(1.2);
-    border-radius: 25%;
-    background-color: rgba(255, 202, 28, 0.959);
-    box-shadow: 0 0 15px rgba(255, 202, 28, 0.959);
-  }
-
-  85% {
-    transform: scale(1);
-    border-radius: 17%;
-    background-color: rgba(255, 202, 28, 0.4);
-    box-shadow: 0 0 15px rgba(255, 202, 28, 0.4);
-  }
-} */
 
 @keyframes visitedAnimation {
   0% {
